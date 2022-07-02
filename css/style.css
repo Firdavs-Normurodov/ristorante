@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------------- header --------------------------------- */
+.navbar{
+    background-color: #969292;
+}
+.navbar-brand-logo{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: .2rem;
+}
+.navbar-collapse .navbar-nav{
+    margin: 0 auto;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-item .nav-link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+}
+/* ----------------------------- and the header ----------------------------- */
+
+/* ---------------------------------- home ---------------------------------- */
+.home{
+    background-image: url(../images/white\ bird\ restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+    text-align: center;
+    overflow: hidden;
+}
+.home .row{
+    background-color: rgba(0,0,0,0.3) !important;
+    padding-bottom: 3rem;
+}
+.home-word{
+    padding:10rem 0 2rem 0;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 1.2px;
+}
+.home-text{
+    width: 50%;
+    color: #fff;
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2rem;
+    padding-bottom: 8rem;
+}
+
+/* ------------------------------ and the home ------------------------------ */
+
+/* ------------------------------- ristorante ------------------------------- */
+.Ristorante{
+    padding-top: 6rem ;
+    padding-bottom: 3rem;
+}
+.Ristorante .navMenu h2{
+    padding-bottom: 2rem;
+    font-family: 'Alike', serif;
+}
+
+.bg-light h3,h5{
+    font-family: 'Alike', serif;
+}
+.bg-light p{
+    font-family: 'Parisienne', cursive; 
+    font-size: 1.1rem;
+}
+.Ristorante img .bg-light img{
+    height: 6rem;
+}
+/* --------------------------- and the ristorante --------------------------- */
+
+/* ---------------------------------- menu ---------------------------------- */
+#Menu{
+    padding-top: 6rem;
+}
+#Menu h2{
+    font-family: 'Alike', serif;
+    padding-bottom: 3rem;
+}
+/* ------------------------------ and the menu ------------------------------ */
+
+/* ------------------------------ contact ------------------------------ */
+#Contact{
+    padding-top: 6rem;
+    font-family: 'Alike', serif;
+}
+.Prenotazione{
+    padding-top: 3rem;
+    background-image: url(../images/prenota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+}
+/* -------------------------- and the contact -------------------------- */
+
+
+
+/* --------------------------------- footer --------------------------------- */
+    footer{
+        overflow: hidden;
+    }
+    footer .row .col p{
+        padding-top: 1rem;
+    }
+/* ------------------------------ and the foter ----------------------------- */
